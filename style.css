@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+.container{
+    display: flex;
+
+}
+
+.sidebar{
+    position: absolute;
+    background-color: white;
+    font-size: 30px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 300;
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in;
+}
+
+.profilePhoto{
+    width: 250px;
+    border-radius: 130px;  
+    justify-content: flex-start; 
+    margin-bottom: 20px;
+}
+
+.main{
+    margin: 10px;
+    width: 80vw;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 200;
+    
+}
+
+.subMain{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 6rem;
+    padding: 20px;
+    color:whitesmoke;
+}
+
+.container li{
+    
+    list-style: none;
+    margin: 2rem;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    
+}
+
+.hello{
+    font-family: 'Neonderthaw', cursive;
+}
+.name{
+    font-family: 'Quintessential', cursive;
+    margin-left: 1rem;
+    font-weight: 900;
+}
+.designation{
+    font-family: 'Quintessential', cursive;
+    margin-left: 1rem;
+    margin-top: -10px;
+}
+.para{
+    margin-left: 1rem;
+}
+button{
+    margin: 5px;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.form-attribute{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+
+form{  
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+.form-text{
+    font-size: small;
+    font-weight: lighter;
+    color: white;
+}
+
+.contactForm h1{
+    padding-left: 20px;
+    font-weight: 900;  
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 4rem;
+}
+.form-control{
+    width: 30vw;
+    border-radius: 8px;
+    margin-top: 6px;
+    padding: 3px;
+}
+
+.sidebarGO{
+    transform: translate(-350px, 0px);
+    position: absolute;
+}   
+
+@media (max-width: 1000px){
+
+/* .sidebar{
+    transform: translate(-350px, 0px);
+    position: absolute;
+}     */
+.subMain{
+    margin-right: -100px;
+    margin-left: -15px
+}
+}
+
+.cross{
+    width: 20px;
+    margin-left: 230px;
+    cursor: pointer;
+    
+}
+
+.ham{
+    width: 2.5rem;
+    cursor: pointer;
+    
+}
+.crossHam{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-image: url(./141516.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sidebar nav{
+    border-top: 2px solid black;
+}
+
+.intro .subMain{
+    margin-top: 0;
+    font-family: 'Source Sans Pro',sans-serif;
+    
+}
+
+.formula{
+    padding: 10px;
+    border-top: white solid;
+    border-bottom:white solid; 
+    text-align: center;
+    font-weight: 900;
+    font-size:2rem;
+}
+.heading{
+    font-family: 'Quintessential', cursive;
+    font-size: 2.5rem;
+}
+.allPara{
+    font-size: larger;
+    font-family: 'Quintessential', cursive;
+    font-weight: 100;
+}
+.insitutionImage{
+    width: 70%;
+    height: 18rem;
+    border-radius: 15px;
+    margin-left: 1rem;
+}
+
+.institutionLink{
+    text-decoration: none;
+    color: lightblue;
+}
+
+.skillcontainer{
+    margin-top: 0;
+}
+
+.logo{
+    width: 12px;
+    margin-left: 5px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.social{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(81, 240, 226);
+}
+
+.linkedinlogo{
+    margin-left: 2px;
+}
+.quote{
+    margin-top: -20px;
+}
+
+.skills.para{
+    font-family: 'Quintessential', cursive;
+}
+
+.progressbar{
+    width: 20rem;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 20px;
+}
+.insideProgressbar{
+    width: 14rem;
+    height: 1.5rem;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.htmlCss.insideProgressbar{
+    width: 18rem;
+}
+.mongodb.insideProgressbar{
+    width: 18rem;
+}
+.git.insideProgressbar{
+    width: 10rem;
+}
+.node.insideProgressbar{
+    width: 8rem;
+}
+
+.skillbars{
+    border-top: white solid 2px;
+    font-weight: 900;
+}
+
+footer{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;   
+    align-items: center;    
+    background-color: white;
+    color:black;
+    height: 3rem;
+    font-size: small;
+    border-radius: 15px;
+    padding: 0.2rem;
+}
+
+.contactfooter{
+    margin: 10px 15px;
+}
